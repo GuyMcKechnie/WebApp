@@ -21,22 +21,47 @@ function App() {
   ];
   return (
     <>
+      <h1>Header</h1>
       <Header />
+      <hr />
+
+      <h1>Food Component</h1>
       <Food />
       <hr />
+
+      <h1>Cards</h1>
+      <Card />
+      <Card />
+      <Card />
       <Card />
       <hr />
+
+      <h1>Different Buttons</h1>
+      <Button />
+      <Button />
+      <Button />
       <Button />
       <hr />
+
+      <h1>Student Component</h1>
+      <p>An introduction into setting data using props.</p>
       <Student name="John Doe" age={12} isStudent={true} />
+      <h3>This has default values set</h3>
       <Student />
       <hr />
+
+      <h1>User Greeting Component</h1>
+      <p>Manipulating CSS/HTML using prop data.</p>
       <UserGreeting isLoggedIn={false} name="Jane Smith" />
       <UserGreeting isLoggedIn={true} name="Jane Smith" />
       <hr />
+
+      <h1>List Component</h1>
       {fruits.length > 0 && <List items={fruits} category="Fruit" />}
       {meats.length > 0 && <List items={meats} category="Meats" />}
       <hr />
+
+      <h1>Footer</h1>
       <Footer />
     </>
   );

@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types'
 function Student(props) {
     return (
-        <div>
-            <h3>Name: {props.name}</h3>
-            <p>Age: {props.age}</p>
-            <p>Student: {props.isStudent ? "Yes" : "No"}</p>
-        </div>
+        <>
+            <ul>
+                <li>Name: {props.name}</li>
+                <li>Age: {props.age}</li>
+                <li>Student: {props.isStudent ? "Yes" : "No"}</li>
+            </ul>
+        </>
     )
 }
 

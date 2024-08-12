@@ -1,18 +1,14 @@
 function Header() {
     return (
         <header>
-            <h1>
-                My Web App
-            </h1>
             <nav>
-                <ul>
+                <ol className="Header">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
+                </ol>
             </nav>
-            <hr></hr>
         </header>
     );
 }

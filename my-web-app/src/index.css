@@ -64,6 +64,12 @@ ol {
   color: var(--text-primary);
 }
 
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
 button {
   background-color: var(--contrast-primary);
   border: none;
@@ -143,4 +149,8 @@ button:hover {
 .ListItems li:hover {
   color: var(--text-primary-hover);
   cursor: pointer;
+}
+
+.Header {
+  color: var(--primary);
 }
