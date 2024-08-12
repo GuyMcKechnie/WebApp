@@ -1,11 +1,9 @@
 function Button() {
-    let count = 0;
-    const handleClick = (name) => {
-        count++;
-        console.log(`Clicked ${name} ${count} times.`);
+    const handleClick = (e) => {
+        e.target.textContent = "Clicked"
     };
     return (
-        <button onClick={() => handleClick("User")} className="Button">Click Me</button>
+        <button onDoubleClick={(e) => handleClick(e)} className="Button">Click Me</button>
     )
 }
 

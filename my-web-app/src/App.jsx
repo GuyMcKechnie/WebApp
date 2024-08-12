@@ -6,6 +6,10 @@ import Button from "./Components/Button.jsx";
 import Student from "./Components/Student.jsx";
 import UserGreeting from "./Components/UserGreeting.jsx";
 import List from "./Components/List.jsx";
+import ProfileIcon from "./Components/ProfileIcon.jsx";
+import Hooks from "./Components/Hooks.jsx";
+import CountingComponent from "./Components/CountingComponent.jsx";
+import TextUpdater from "./Components/TextUpdater.jsx";
 
 function App() {
   const fruits = [
@@ -60,6 +64,25 @@ function App() {
       {fruits.length > 0 && <List items={fruits} category="Fruit" />}
       {meats.length > 0 && <List items={meats} category="Meats" />}
       <hr />
+
+      <h1>Profile Icon Component</h1>
+      <p>This image disappears when its clicked. It uses the click event handler.</p>
+      <ProfileIcon></ProfileIcon>
+      <hr />
+
+      <h1>Hooks</h1>
+      <p>A simple example of using React Hooks.</p>
+      <Hooks />
+      <hr />
+
+      <h1>Counting Component</h1>
+      <p>This component shows how to use a state variable in a functional component.</p>
+      <CountingComponent />
+      <hr />
+
+      <h1>Text Updater</h1>
+      <p>This component shows how to dynamically update a text field.</p>
+      <TextUpdater />
 
       <h1>Footer</h1>
       <Footer />
