@@ -1,0 +1,46 @@
+Date : 2024-08-12 22:39:29
+Directory : c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src
+Total : 16 files,  414 codes, 3 comments, 68 blanks, all 485 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         14 |        286 |          0 |         41 |        327 |
+| CSS            |          1 |        127 |          3 |         27 |        157 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         16 |        414 |          3 |         68 |        485 |
+| . (Files)                                                                             |          3 |        215 |          3 |         44 |        262 |
+| Components                                                                            |         13 |        199 |          0 |         24 |        223 |
+| Components (Files)                                                                    |         12 |        198 |          0 |         24 |        222 |
+| Components\assets                                                                     |          1 |          1 |          0 |          0 |          1 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                              | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\App.jsx                          | JavaScript JSX |         79 |          0 |         15 |         94 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Button.jsx            | JavaScript JSX |          9 |          0 |          1 |         10 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Card.jsx              | JavaScript JSX |         13 |          0 |          2 |         15 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\CountingComponent.jsx | JavaScript JSX |         23 |          0 |          1 |         24 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Food.jsx              | JavaScript JSX |         14 |          0 |          2 |         16 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Footer.jsx            | JavaScript JSX |         10 |          0 |          1 |         11 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Header.jsx            | JavaScript JSX |         15 |          0 |          1 |         16 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Hooks.jsx             | JavaScript JSX |         24 |          0 |          2 |         26 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\List.jsx              | JavaScript JSX |         30 |          0 |          3 |         33 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\ProfileIcon.jsx       | JavaScript JSX |          8 |          0 |          1 |          9 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\Student.jsx           | JavaScript JSX |         23 |          0 |          5 |         28 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\TextUpdater.jsx       | JavaScript JSX |         14 |          0 |          1 |         15 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\UserGreeting.jsx      | JavaScript JSX |         15 |          0 |          4 |         19 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\Components\assets\react.svg      | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\index.css                        | CSS            |        127 |          3 |         27 |        157 |
+| c:\Users\mckec\OneDrive\Coding\WebApp\my-web-app\src\main.jsx                         | JavaScript JSX |          9 |          0 |          2 |         11 |
+| Total                                                                                 |                |        414 |          3 |         68 |        485 |
++---------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
