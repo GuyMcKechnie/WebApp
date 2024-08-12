@@ -1,0 +1,146 @@
+:root {
+  --primary: #c1e8ff;
+  --secondary: #7da0ca;
+  --tertiary: #5483b3;
+  --contrast-primary: #052659;
+  --contrast-secondary: #021024;
+
+  --contrast-primary-hover: #0527594f;
+  --contrast-secondary-hover: #0210244f;
+
+  --text-primary: white;
+  --text-primary-hover: var(--primary);
+  --text-title: var(--secondary);
+  --text-title-hover: var(--primary);
+
+  --error: red;
+}
+
+h1 {
+  font-family: monospace, sans-serif;
+  font-size: 32px;
+  margin: 0;
+  color: var(--text-title);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: monospace, sans-serif;
+  font-size: 28px;
+  margin: 0;
+  color: var(--text-title);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: monospace, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  color: var(--text-title);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: monospace, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: var(--text-title);
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+body {
+  background-color: var(--contrast-secondary);
+}
+
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+button {
+  background-color: var(--contrast-primary);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border-radius: 2rem;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease;
+  background-color: var(--contrast-primary-hover);
+}
+
+/*Cards*/
+
+.Card {
+  border: 1px solid var(--tertiary);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  transition: 0.4s ease-in-out;
+}
+
+.Card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: var(--contrast-primary-hover);
+}
+
+.CardImage {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/*User Greetings*/
+
+.UserGreetingLoggedIn {
+  color: var(--text-primary);
+}
+
+.UserGreetingLoggedOut {
+  color: var(--error);
+}
+
+/*Lists*/
+
+.ListDiv {
+  border: 3px solid var(--secondary);
+  border-radius: 1rem;
+  background-color: var(--tertiary);
+  margin-bottom: 10px;
+}
+
+.ListCategory {
+  color: var(--text-title);
+  text-align: center;
+}
+
+.ListItems li {
+  color: var(--text-primary);
+}
+
+.ListItems li:hover {
+  color: var(--text-primary-hover);
+  cursor: pointer;
+}
