@@ -1,4 +1,4 @@
-### My React.js Learning Project
+# My React.js Learning Project
 
 ## Overview
 
@@ -27,5 +27,6 @@ API Integration: Integrate with external APIs to fetch and display data dynamica
 Contributing
 This project is primarily for personal learning, but if you'd like to contribute, feel free to fork the repository and submit a pull request.
 
-License
+### License
+
 This project is licensed under the MIT License.
