@@ -16,15 +16,19 @@ Reusable Components: Develops reusable UI components that can be used across dif
 
 Through this project, I aim to:
 
-Master React.js: Understand component-based architecture, state management, and hooks.
-Enhance JavaScript Skills: Improve my knowledge of modern JavaScript (ES6+), including arrow functions, async/await, and destructuring.
-Improve HTML/CSS Proficiency: Practice creating responsive layouts using CSS Grid and Flexbox, and improve my understanding of semantic HTML.
-Build Reusable Components: Learn how to design and implement reusable components in a React application.
-Future Enhancements
-Routing: Implement React Router for navigation between different views.
-State Management Libraries: Explore Redux or Context API for more complex state management.
-API Integration: Integrate with external APIs to fetch and display data dynamically.
-Contributing
+- Master React.js: Understand component-based architecture, state management, and hooks.
+- Enhance JavaScript Skills: Improve my knowledge of modern JavaScript (ES6+), including arrow functions, async/await, and destructuring.
+- Improve HTML/CSS Proficiency: Practice creating responsive layouts using CSS Grid and Flexbox, and improve my understanding of semantic HTML.
+- Build Reusable Components: Learn how to design and implement reusable components in a React application.
+
+### Future Enhancements
+
+- Routing: Implement React Router for navigation between different views.
+- State Management Libraries: Explore Redux or Context API for more complex state management.
+- API Integration: Integrate with external APIs to fetch and display data dynamically.
+
+### Contributing
+
 This project is primarily for personal learning, but if you'd like to contribute, feel free to fork the repository and submit a pull request.
 
 ### License
