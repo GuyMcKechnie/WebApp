@@ -92,6 +92,23 @@ button:hover {
   background-color: var(--contrast-primary-hover);
 }
 
+label {
+  color: var(--text-primary);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  border-radius: 10px;
+  padding: 5px;
+  border: 3px solid var(--secondary);
+  background-color: var(--contrast-secondary);
+}
+
 /*Cards*/
 
 .Card {
@@ -153,4 +170,19 @@ button:hover {
 
 .Header {
   color: var(--primary);
+}
+
+/*Colour Picker*/
+
+.ColourPickerContainer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+  margin-bottom: 15px;
+  border: 3px solid var(--secondary);
+  border-radius: 25px;
+  font-weight: bold;
 }

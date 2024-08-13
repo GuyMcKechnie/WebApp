@@ -10,6 +10,7 @@ import ProfileIcon from "./Components/ProfileIcon.jsx";
 import Hooks from "./Components/Hooks.jsx";
 import CountingComponent from "./Components/CountingComponent.jsx";
 import TextUpdater from "./Components/TextUpdater.jsx";
+import ColourPicker from "./Components/ColourPicker.jsx";
 
 function App() {
   const fruits = [
@@ -81,8 +82,15 @@ function App() {
       <hr />
 
       <h1>Text Updater</h1>
-      <p>This component shows how to dynamically update a text field.</p>
+      <p>This component shows how to dynamically update different components using the onChange event handler.</p>
       <TextUpdater />
+      <hr />
+
+      <h1>Colour Picker</h1>
+      <p>This component shows how to create a custom hook to manage state for a colour picker.</p>
+      <ColourPicker />
+      <hr />
+
 
       <h1>Footer</h1>
       <Footer />
